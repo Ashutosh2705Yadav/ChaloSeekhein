@@ -1,40 +1,75 @@
 <?php include 'db.php'; ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Volunteer Signup</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="p-6 bg-gray-50">
-<nav class="bg-white shadow mb-6">
-  <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between">
-    <div class="text-xl font-semibold text-blue-700">EduRural</div>
-    <div class="space-x-4">
-      <a href="index.php" class="text-gray-700 hover:text-blue-600">Home</a>
-      <a href="learning-materials.php" class="text-gray-700 hover:text-blue-600">Materials</a>
-      <a href="teacher-signup.php" class="text-gray-700 hover:text-blue-600">Volunteer</a>
-      <a href="video-classes.php" class="text-gray-700 hover:text-blue-600">Video Classes</a>
-      <a href="community.php" class="text-gray-700 hover:text-blue-600">Community</a>
-      <a href="contact.php" class="text-gray-700 hover:text-blue-600">Contact</a>
+<body class="bg-gray-100">
+
+<!-- Navbar -->
+<nav class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-lg">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between">
+    <div class="text-3xl font-semibold text-white">EduRural</div>
+    <div class="space-x-6 text-lg">
+      <a href="index.php" class="hover:text-gray-200">Home</a>
+      <a href="learning-materials.php" class="hover:text-gray-200">Materials</a>
+      <a href="teacher-signup.php" class="hover:text-gray-200">Volunteer</a>
+      <a href="video-classes.php" class="hover:text-gray-200">Video Classes</a>
+      <a href="community.php" class="hover:text-gray-200">Community</a>
+      <a href="contact.php" class="hover:text-gray-200">Contact</a>
     </div>
   </div>
 </nav>
-  <h2 class="text-2xl font-bold mb-4">Volunteer as a Teacher</h2>
-  <form id="signupForm" class="max-w-md bg-white p-6 rounded shadow">
-    <input type="text" name="name" placeholder="Name" class="block w-full mb-2 p-2 border rounded">
-    <input type="text" name="subject" placeholder="Subject" class="block w-full mb-2 p-2 border rounded">
-    <input type="email" name="email" placeholder="Email" class="block w-full mb-2 p-2 border rounded">
-    <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded">Submit</button>
-  </form>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-    $('#signupForm').on('submit', function(e) {
-      e.preventDefault();
-      $.post('save-teacher.php', $(this).serialize(), function(data) {
-        alert(data);
-      });
+<!-- Hero Section -->
+<header class="bg-gradient-to-r from-blue-400 to-teal-500 text-white p-16">
+  <h1 class="text-4xl font-extrabold text-center">Become a Volunteer Teacher</h1>
+  <p class="text-lg text-center mt-4">Your knowledge can change lives! Join us in empowering students in rural areas.</p>
+</header>
+
+<!-- Form Section -->
+<div class="max-w-3xl mx-auto p-8">
+  <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Sign up as a Teacher</h2>
+  <form id="signupForm" class="bg-white p-8 rounded-xl shadow-xl space-y-6">
+    <div class="space-y-2">
+      <label for="name" class="block text-lg font-medium text-gray-700">Full Name</label>
+      <input type="text" name="name" id="name" placeholder="Enter your full name" class="block w-full p-4 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none transition duration-300">
+    </div>
+
+    <div class="space-y-2">
+      <label for="subject" class="block text-lg font-medium text-gray-700">Teaching Subject</label>
+      <input type="text" name="subject" id="subject" placeholder="Enter the subject you wish to teach" class="block w-full p-4 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none transition duration-300">
+    </div>
+
+    <div class="space-y-2">
+      <label for="email" class="block text-lg font-medium text-gray-700">Email Address</label>
+      <input type="email" name="email" id="email" placeholder="Enter your email" class="block w-full p-4 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none transition duration-300">
+    </div>
+
+    <div class="text-center">
+      <button type="submit" class="w-full py-3 bg-gradient-to-r from-indigo-500 to-pink-500 text-white font-semibold text-lg rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105">Submit</button>
+    </div>
+  </form>
+</div>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white text-center p-4 mt-10">
+  <p>© 2025 EduRural. All rights reserved.</p>
+</footer>
+
+<!-- jQuery Script -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $('#signupForm').on('submit', function(e) {
+    e.preventDefault();
+    $.post('save-teacher.php', $(this).serialize(), function(data) {
+      alert(data);
     });
-  </script>
+  });
+</script>
+
 </body>
 </html>
