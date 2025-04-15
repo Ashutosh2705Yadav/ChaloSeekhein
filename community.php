@@ -8,26 +8,26 @@
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
-<body class="bg-gray-200 p-6">
+<body class="bg-gray-100 p-6">
 
   <!-- Navbar -->
-  <nav class="bg-gray-100 shadow mb-6">
+  <nav class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow mb-6">
     <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between">
-      <div class="text-xl font-semibold text-gray-700">EduRural</div>
+      <div class="text-xl font-semibold text-white">EduRural</div>
       <div class="space-x-4">
-        <a href="index.php" class="text-gray-600 hover:text-blue-500">Home</a>
-        <a href="learning-materials.php" class="text-gray-600 hover:text-blue-500">Materials</a>
-        <a href="teacher-signup.php" class="text-gray-600 hover:text-blue-500">Volunteer</a>
-        <a href="video-classes.php" class="text-gray-600 hover:text-blue-500">Video Classes</a>
-        <a href="community.php" class="text-gray-600 hover:text-blue-500">Community</a>
-        <a href="contact.php" class="text-gray-600 hover:text-blue-500">Contact</a>
+        <a href="index.php" class="text-white hover:text-gray-200">Home</a>
+        <a href="learning-materials.php" class="text-white hover:text-gray-200">Materials</a>
+        <a href="teacher-signup.php" class="text-white hover:text-gray-200">Volunteer</a>
+        <a href="video-classes.php" class="text-white hover:text-gray-200">Video Classes</a>
+        <a href="community.php" class="text-white hover:text-gray-200">Community</a>
+        <a href="contact.php" class="text-white hover:text-gray-200">Contact</a>
       </div>
     </div>
   </nav>
 
   <!-- Hero Section -->
-  <header class="bg-gradient-to-r from-blue-300 to-green-300 text-white p-16 text-center rounded-xl">
-    <h1 class="text-3xl font-extrabold mb-4">Community Support for Rural Education</h1>
+  <header class="bg-gradient-to-r from-blue-400 to-teal-500 text-white p-16 text-center rounded-xl">
+    <h1 class="text-4xl font-extrabold mb-4">Community Support for Rural Education</h1>
     <p class="text-lg">Together, we can make a lasting impact in rural education by supporting and empowering local communities.</p>
   </header>
 
@@ -54,10 +54,10 @@
   </section>
 
   <!-- Call to Action Section -->
-  <section class="bg-green-500 text-white p-12 mt-12 rounded-xl text-center">
+  <section class="bg-gradient-to-r from-pink-500 to-indigo-600 text-white p-12 mt-12 rounded-xl text-center">
     <h2 class="text-2xl font-bold mb-4">Get Involved in Our Mission</h2>
     <p class="mb-4">Help us build a better future for rural students. Volunteer, donate, or spread the word.</p>
-    <a href="teacher-signup.php" class="bg-white text-green-500 py-3 px-8 rounded-full font-semibold hover:bg-gray-100 transition duration-300">Join Us Now</a>
+    <a href="teacher-signup.php" class="bg-white text-pink-500 py-3 px-8 rounded-full font-semibold hover:bg-gray-100 transition duration-300">Join Us Now</a>
   </section>
 
   <footer class="bg-gray-800 text-white text-center p-4 mt-12">

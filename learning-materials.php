@@ -3,31 +3,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Learning Materials</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
-<body class="p-6 bg-gradient-to-r from-blue-100 via-indigo-100 to-purple-100">
-  <nav class="bg-white shadow-lg rounded-lg mb-8 p-4">
+<body class="p-6 bg-gray-100">
+  <nav class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-lg rounded-lg mb-8 p-4">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
-      <div class="text-3xl font-semibold text-indigo-600">EduRural</div>
+      <div class="text-3xl font-semibold text-white">EduRural</div>
       <div class="space-x-6 text-lg">
-        <a href="index.php" class="hover:text-indigo-600">Home</a>
-        <a href="learning-materials.php" class="hover:text-indigo-600">Materials</a>
-        <a href="teacher-signup.php" class="hover:text-indigo-600">Volunteer</a>
-        <a href="video-classes.php" class="hover:text-indigo-600">Video Classes</a>
-        <a href="community.php" class="hover:text-indigo-600">Community</a>
-        <a href="contact.php" class="hover:text-indigo-600">Contact</a>
+        <a href="index.php" class="hover:text-gray-200">Home</a>
+        <a href="learning-materials.php" class="hover:text-gray-200">Materials</a>
+        <a href="teacher-signup.php" class="hover:text-gray-200">Volunteer</a>
+        <a href="video-classes.php" class="hover:text-gray-200">Video Classes</a>
+        <a href="community.php" class="hover:text-gray-200">Community</a>
+        <a href="contact.php" class="hover:text-gray-200">Contact</a>
       </div>
     </div>
   </nav>
 
-  <div class="max-w-7xl mx-auto">
+  <header class="max-w-7xl mx-auto bg-gradient-to-r from-blue-400 to-teal-500 text-white p-16 text-center mb-8">
+    <h1 class="text-4xl font-extrabold">Learning Resources for Students</h1>
+  </header>
+
+  <div class="max-w-7xl mx-auto p-4">
     <h2 class="text-3xl font-bold text-center text-indigo-600 mb-6">Upload Learning Materials</h2>
 
     <form action="upload.php" method="post" enctype="multipart/form-data" class="bg-white p-8 rounded-lg shadow-lg mb-8">
       <input type="file" name="file" class="mb-4 p-3 border border-gray-300 rounded-lg w-full" required>
-      <button type="submit" class="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-500 transition ease-in-out duration-300">Upload</button>
+      <button type="submit" class="bg-gradient-to-r from-indigo-500 to-pink-500 text-white px-6 py-3 rounded-lg hover:bg-indigo-400 transition ease-in-out duration-300">Upload</button>
     </form>
 
     <h3 class="text-2xl font-semibold text-center mb-4">Available Materials</h3>
@@ -55,7 +60,7 @@
         <option value="10">Class 10</option>
       </select>
 
-      <button type="submit" class="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-500 transition ease-in-out duration-300 w-full">Show Textbooks</button>
+      <button type="submit" class="bg-gradient-to-r from-indigo-500 to-pink-500 text-white px-6 py-3 rounded-lg hover:bg-indigo-400 transition ease-in-out duration-300 w-full">Show Textbooks</button>
     </form>
 
     <?php
@@ -100,5 +105,11 @@
     }
     ?>
   </div>
+
+  <footer class="bg-white p-4 mt-8 shadow-lg text-center">
+    <p class="text-gray-600">© 2023 EduRural. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 </html>

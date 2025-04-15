@@ -7,24 +7,24 @@
 <body class="bg-gray-100 font-sans">
 
 <!-- Navbar -->
-<nav class="bg-white shadow mb-6">
+<nav class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mb-6">
   <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between">
-    <div class="text-xl font-semibold text-blue-700">EduRural</div>
+    <div class="text-xl font-semibold text-white">EduRural</div>
     <div class="space-x-4">
-      <a href="index.php" class="text-gray-700 hover:text-blue-600">Home</a>
-      <a href="learning-materials.php" class="text-gray-700 hover:text-blue-600">Materials</a>
-      <a href="teacher-signup.php" class="text-gray-700 hover:text-blue-600">Volunteer</a>
-      <a href="video-classes.php" class="text-gray-700 hover:text-blue-600 font-bold">Video Classes</a>
-      <a href="community.php" class="text-gray-700 hover:text-blue-600">Community</a>
-      <a href="contact.php" class="text-gray-700 hover:text-blue-600">Contact</a>
+      <a href="index.php" class="text-white hover:text-gray-200">Home</a>
+      <a href="learning-materials.php" class="text-white hover:text-gray-200">Materials</a>
+      <a href="teacher-signup.php" class="text-white hover:text-gray-200">Volunteer</a>
+      <a href="video-classes.php" class="text-white hover:text-gray-200 font-bold">Video Classes</a>
+      <a href="community.php" class="text-white hover:text-gray-200">Community</a>
+      <a href="contact.php" class="text-white hover:text-gray-200">Contact</a>
     </div>
   </div>
 </nav>
 
 <!-- Hero Section -->
-<header class="bg-gradient-to-r from-indigo-200 to-blue-200 text-center py-12 rounded-xl mx-4">
-  <h1 class="text-4xl font-bold text-gray-800">📺 Recorded Video Classes</h1>
-  <p class="text-lg text-gray-700 mt-2">Learn anytime, anywhere — curated lessons for Class 6 to 10</p>
+<header class="bg-gradient-to-r from-blue-400 to-teal-500 text-white p-16 text-center">
+  <h1 class="text-4xl font-extrabold">📺 Recorded Video Classes</h1>
+  <p class="text-lg text-gray-200 mt-2">Learn anytime, anywhere — curated lessons for Class 6 to 10</p>
 </header>
 
 <!-- Class Filter (Static for now) -->

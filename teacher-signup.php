@@ -49,8 +49,46 @@
       <input type="email" name="email" id="email" placeholder="Enter your email" class="block w-full p-4 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none transition duration-300">
     </div>
 
+    <div class="space-y-2">
+      <label for="phone" class="block text-lg font-medium text-gray-700">Phone Number</label>
+      <input type="tel" name="phone" id="phone" placeholder="Enter your contact number" class="block w-full p-4 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none transition duration-300">
+    </div>
+
+    <div class="space-y-2">
+      <label for="timing" class="block text-lg font-medium text-gray-700">Preferred Time Slot</label>
+      <select name="timing" id="timing" class="block w-full p-4 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none transition duration-300">
+        <option value="morning">Morning</option>
+        <option value="afternoon">Afternoon</option>
+        <option value="evening">Evening</option>
+        <option value="flexible">Flexible</option>
+      </select>
+    </div>
+
+    <div class="space-y-2">
+      <label for="qualification" class="block text-lg font-medium text-gray-700">Qualification</label>
+      <input type="text" name="qualification" id="qualification" placeholder="Enter your educational qualification" class="block w-full p-4 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none transition duration-300">
+    </div>
+
+    <div class="space-y-2">
+      <label class="block text-lg font-medium text-gray-700">Available Days</label>
+      <div class="flex flex-wrap gap-3">
+        <label><input type="checkbox" name="days[]" value="Monday"> Monday</label>
+        <label><input type="checkbox" name="days[]" value="Tuesday"> Tuesday</label>
+        <label><input type="checkbox" name="days[]" value="Wednesday"> Wednesday</label>
+        <label><input type="checkbox" name="days[]" value="Thursday"> Thursday</label>
+        <label><input type="checkbox" name="days[]" value="Friday"> Friday</label>
+        <label><input type="checkbox" name="days[]" value="Saturday"> Saturday</label>
+        <label><input type="checkbox" name="days[]" value="Sunday"> Sunday</label>
+      </div>
+    </div>
+
+    <div class="space-y-2">
+      <label for="reason" class="block text-lg font-medium text-gray-700">Why do you want to volunteer?</label>
+      <textarea name="reason" id="reason" rows="3" placeholder="Share a few lines..." class="block w-full p-4 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none transition duration-300"></textarea>
+    </div>
+
     <div class="text-center">
-      <button type="submit" class="w-full py-3 bg-gradient-to-r from-indigo-500 to-pink-500 text-white font-semibold text-lg rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105">Submit</button>
+      <button type="submit" class="w-fuall py-3 bg-gradient-to-r from-indigo-500 to-pink-500 text-white font-semibold text-lg rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105">Submit</button>
     </div>
   </form>
 </div>
