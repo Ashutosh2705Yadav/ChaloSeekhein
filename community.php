@@ -8,7 +8,7 @@
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 p-6">
+<body class="bg-gray-100">
 
   <!-- Navbar -->
   <nav class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow mb-6">

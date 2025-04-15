@@ -8,10 +8,10 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
-<body class="p-6 bg-gray-100">
-  <nav class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-lg rounded-lg mb-8 p-4">
-    <div class="max-w-7xl mx-auto flex justify-between items-center">
-      <div class="text-3xl font-semibold text-white">EduRural</div>
+<body class="bg-gray-100">
+  <nav class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-lg p-1 w-full fixed top-0 left-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center py-1">
+      <div class="text-base font-semibold text-white">EduRural</div>
       <div class="space-x-6 text-lg">
         <a href="index.php" class="hover:text-gray-200">Home</a>
         <a href="learning-materials.php" class="hover:text-gray-200">Materials</a>
@@ -22,6 +22,7 @@
       </div>
     </div>
   </nav>
+  <div class="h-20"></div>
 
   <header class="max-w-7xl mx-auto bg-gradient-to-r from-blue-400 to-teal-500 text-white p-16 text-center mb-8">
     <h1 class="text-4xl font-extrabold">Learning Resources for Students</h1>

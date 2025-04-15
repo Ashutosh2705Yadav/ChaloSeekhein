@@ -10,9 +10,9 @@
 <body class="bg-gray-100">
 
 <!-- Navbar -->
-<nav class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-lg">
-  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between">
-    <div class="text-3xl font-semibold text-white">EduRural</div>
+<nav class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-lg fixed top-0 left-0 w-full z-50">
+  <div class="max-w-7xl mx-auto px-4 py-2 flex justify-between">
+    <div class="text-lg font-semibold text-white">EduRural</div>
     <div class="space-x-6 text-lg">
       <a href="index.php" class="hover:text-gray-200">Home</a>
       <a href="learning-materials.php" class="hover:text-gray-200">Materials</a>
@@ -23,6 +23,7 @@
     </div>
   </div>
 </nav>
+<div class="h-20"></div>
 
 <!-- Hero Section -->
 <header class="bg-gradient-to-r from-blue-400 to-teal-500 text-white p-16">
