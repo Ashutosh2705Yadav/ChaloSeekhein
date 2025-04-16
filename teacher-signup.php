@@ -89,7 +89,9 @@
     </div>
 
     <div class="text-center">
-      <button type="submit" class="w-fuall py-3 bg-gradient-to-r from-indigo-500 to-pink-500 text-white font-semibold text-lg rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105">Submit</button>
+      <button type="submit" class="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-medium text-lg rounded-lg shadow-sm transition duration-300">
+        Submit
+      </button>
     </div>
   </form>
 </div>
