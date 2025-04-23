@@ -191,71 +191,71 @@
   </section>
 
   <!-- Mission Section -->
-  <section id="mission" class="py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-16" data-aos="fade-up">
-        <h2 class="text-3xl md:text-4xl font-bold text-blue-800 mb-4">Our Mission</h2>
-        <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
-        <p class="text-lg text-gray-600 max-w-4xl mx-auto">
-          We're committed to transforming rural education through technology, teacher training, and community engagement.
-        </p>
+<!-- Mission Section -->
+<section id="mission" class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16" data-aos="fade-up">
+      <h2 class="text-3xl md:text-4xl font-bold text-blue-800 mb-4">Our Mission</h2>
+      <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+      <p class="text-lg text-gray-600 max-w-4xl mx-auto">
+        We're committed to transforming rural education through technology, teacher training, and community engagement.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div data-aos="fade-right" class="rounded-xl overflow-hidden shadow-xl hover-zoom">
+        <div class="relative aspect-w-16 aspect-h-9">
+          <iframe class="w-full" height="315" src="https://www.youtube.com/embed/QYgr_p_AXRA?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-50"></div>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        <div data-aos="fade-right" class="rounded-xl overflow-hidden shadow-xl hover-zoom">
-          <img src="/rural-edu/image/mission.jpg" alt="Our Mission" class="w-full h-auto">
-          <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-50"></div>
-          <div class="absolute bottom-0 left-0 p-6 text-white">
-            <p class="text-sm">A student's first time using a computer at our digital center</p>
+      <div data-aos="fade-left">
+        <div class="space-y-6">
+          <div class="flex items-start">
+            <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full mr-4">
+              <i class="fas fa-book-open text-blue-600 text-xl"></i>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-gray-800">Quality Education</h3>
+              <p class="text-gray-600 mt-1">Providing access to world-class learning materials tailored for rural contexts.</p>
+            </div>
           </div>
-        </div>
-        <div data-aos="fade-left">
-          <div class="space-y-6">
-            <div class="flex items-start">
-              <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full mr-4">
-                <i class="fas fa-book-open text-blue-600 text-xl"></i>
-              </div>
-              <div>
-                <h3 class="text-xl font-semibold text-gray-800">Quality Education</h3>
-                <p class="text-gray-600 mt-1">Providing access to world-class learning materials tailored for rural contexts.</p>
-              </div>
-            </div>
 
-            <div class="flex items-start">
-              <div class="flex-shrink-0 bg-green-100 p-3 rounded-full mr-4">
-                <i class="fas fa-laptop-code text-green-600 text-xl"></i>
-              </div>
-              <div>
-                <h3 class="text-xl font-semibold text-gray-800">Digital Literacy</h3>
-                <p class="text-gray-600 mt-1">Bridging the technology gap with innovative digital solutions.</p>
-              </div>
+          <div class="flex items-start">
+            <div class="flex-shrink-0 bg-green-100 p-3 rounded-full mr-4">
+              <i class="fas fa-laptop-code text-green-600 text-xl"></i>
             </div>
-
-            <div class="flex items-start">
-              <div class="flex-shrink-0 bg-yellow-100 p-3 rounded-full mr-4">
-                <i class="fas fa-chalkboard-teacher text-yellow-600 text-xl"></i>
-              </div>
-              <div>
-                <h3 class="text-xl font-semibold text-gray-800">Teacher Empowerment</h3>
-                <p class="text-gray-600 mt-1">Training educators to deliver impactful lessons in low-resource settings.</p>
-              </div>
+            <div>
+              <h3 class="text-xl font-semibold text-gray-800">Digital Literacy</h3>
+              <p class="text-gray-600 mt-1">Bridging the technology gap with innovative digital solutions.</p>
             </div>
+          </div>
 
-            <div class="flex items-start">
-              <div class="flex-shrink-0 bg-purple-100 p-3 rounded-full mr-4">
-                <i class="fas fa-hands-helping text-purple-600 text-xl"></i>
-              </div>
-              <div>
-                <h3 class="text-xl font-semibold text-gray-800">Community Engagement</h3>
-                <p class="text-gray-600 mt-1">Working with local communities to create sustainable education models.</p>
-              </div>
+          <div class="flex items-start">
+            <div class="flex-shrink-0 bg-yellow-100 p-3 rounded-full mr-4">
+              <i class="fas fa-chalkboard-teacher text-yellow-600 text-xl"></i>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-gray-800">Teacher Empowerment</h3>
+              <p class="text-gray-600 mt-1">Training educators to deliver impactful lessons in low-resource settings.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start">
+            <div class="flex-shrink-0 bg-purple-100 p-3 rounded-full mr-4">
+              <i class="fas fa-hands-helping text-purple-600 text-xl"></i>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-gray-800">Community Engagement</h3>
+              <p class="text-gray-600 mt-1">Working with local communities to create sustainable education models.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-
+  </div>
+</section>
   <!-- Impact Stats Section -->
   <section class="py-20 bg-blue-600 text-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -429,9 +429,9 @@
         </p>
       </div>
 
-      <div class="bg-gray-100 rounded-xl shadow-lg overflow-hidden" data-aos="fade-up">
+      <!-- <div class="bg-gray-100 rounded-xl shadow-lg overflow-hidden" data-aos="fade-up">
         <div id="map" class="h-96 w-full"></div>
-      </div>
+      </div> -->
 
       <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6" data-aos="fade-up">
         <div class="bg-blue-50 p-6 rounded-lg hover-zoom">
