@@ -10,7 +10,7 @@
 <body class="bg-gray-100">
 
 <!-- Navbar -->
-<nav class="bg-blue-600 shadow-lg sticky top-0 z-50">
+<nav class="bg-green-800 shadow-lg sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
       <div class="flex items-center space-x-2">
         <img src="/ChaloSeekhein\image\EduR.png" alt="EduRural Logo" class="h-10 w-10">

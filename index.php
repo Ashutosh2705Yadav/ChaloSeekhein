@@ -121,7 +121,7 @@
 <body class="bg-gray-50 text-gray-800 font-sans antialiased">
 
   <!-- Navigation -->
-  <nav class="bg-blue-600 shadow-lg sticky top-0 z-50">
+  <nav class="bg-green-800 shadow-lg sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
       <div class="flex items-center space-x-2">
         <img src="/ChaloSeekhein\image\EduR.png" alt="EduRural Logo" class="h-10 w-10">
@@ -188,7 +188,7 @@
         Education is the most powerful weapon which you can use to change the world.
         In rural India, this weapon is often out of reach. We're here to change that.
       </blockquote>
-      <p class="mt-8 text-blue-600 font-semibold">— Priya Sharma, Founder</p>
+      <p class="mt-8 text-blue-600 font-semibold">— EduRural, Founder</p>
     </div>
   </section>
 
@@ -541,7 +541,7 @@
     </div>
   </section>
 
-  <!-- Footer -->
+  Footer
   <footer class="bg-gray-900 text-white pt-16 pb-8">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
