@@ -10,19 +10,38 @@
 <body class="bg-gray-100">
 
 <!-- Navbar -->
-<nav class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-lg fixed top-0 left-0 w-full z-50">
-  <div class="max-w-7xl mx-auto px-4 py-2 flex justify-between">
-    <div class="text-lg font-semibold text-white">EduRural</div>
-    <div class="space-x-6 text-lg">
-      <a href="index.php" class="hover:text-gray-200">Home</a>
-      <a href="learning-materials.php" class="hover:text-gray-200">Materials</a>
-      <a href="teacher-signup.php" class="hover:text-gray-200">Volunteer</a>
-      <a href="video-classes.php" class="hover:text-gray-200">Video Classes</a>
-      <a href="community.php" class="hover:text-gray-200">Community</a>
-      <a href="contact.php" class="hover:text-gray-200">Contact</a>
+<nav class="bg-blue-600 shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <img src="/ChaloSeekhein\image\EduR.png" alt="EduRural Logo" class="h-10 w-10">
+        <div class="text-xl font-bold text-white">EduRural</div>
+      </div>
+      <div class="hidden md:flex space-x-6">
+        <a href="index.php" class="text-white hover:text-blue-200 transition duration-300">Home</a>
+        <a href="learning-materials.php" class="text-white hover:text-blue-200 transition duration-300">Materials</a>
+        <a href="video-classes.php" class="text-white hover:text-blue-200 transition duration-300">Video Classes</a>
+        <a href="teacher-signup.php" class="text-white hover:text-blue-200 transition duration-300">Volunteer</a>
+       
+        <a href="community.php" class="text-white hover:text-blue-200 transition duration-300">Community</a>
+        <a href="contact.php" class="text-white hover:text-blue-200 transition duration-300">Contact</a>
+        <a href="state-education-data.php" class="text-white hover:text-blue-200 transition duration-300">Education Stats</a>
+      </div>
+      <button class="md:hidden text-white focus:outline-none" id="mobile-menu-button">
+        <i class="fas fa-bars text-2xl"></i>
+      </button>
     </div>
-  </div>
-</nav>
+    <!-- Mobile Menu -->
+    <div class="md:hidden hidden bg-blue-700" id="mobile-menu">
+      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <a href="index.php" class="block px-3 py-2 text-white hover:bg-blue-600 rounded-md">Home</a>
+        <a href="learning-materials.php" class="block px-3 py-2 text-white hover:bg-blue-600 rounded-md">Materials</a>
+        <a href="teacher-signup.php" class="block px-3 py-2 text-white hover:bg-blue-600 rounded-md">Volunteer</a>
+        <a href="video-classes.php" class="block px-3 py-2 text-white hover:bg-blue-600 rounded-md">Video Classes</a>
+        <a href="community.php" class="block px-3 py-2 text-white hover:bg-blue-600 rounded-md">Community</a>
+        <a href="contact.php" class="block px-3 py-2 text-white hover:bg-blue-600 rounded-md">Contact</a>
+      </div>
+    </div>
+  </nav>
 <div class="h-20"></div>
 
 <!-- Hero Section -->

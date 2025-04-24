@@ -9,16 +9,35 @@
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body class="bg-gray-100">
-  <nav class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-lg p-1 w-full fixed top-0 left-0 z-50">
-    <div class="max-w-7xl mx-auto flex justify-between items-center py-1">
-      <div class="text-base font-semibold text-white">EduRural</div>
-      <div class="space-x-6 text-lg">
-        <a href="index.php" class="hover:text-gray-200">Home</a>
-        <a href="learning-materials.php" class="hover:text-gray-200">Materials</a>
-        <a href="teacher-signup.php" class="hover:text-gray-200">Volunteer</a>
-        <a href="video-classes.php" class="hover:text-gray-200">Video Classes</a>
-        <a href="community.php" class="hover:text-gray-200">Community</a>
-        <a href="contact.php" class="hover:text-gray-200">Contact</a>
+<nav class="bg-blue-600 shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <img src="/ChaloSeekhein\image\EduR.png" alt="EduRural Logo" class="h-10 w-10">
+        <div class="text-xl font-bold text-white">EduRural</div>
+      </div>
+      <div class="hidden md:flex space-x-6">
+        <a href="index.php" class="text-white hover:text-blue-200 transition duration-300">Home</a>
+        <a href="learning-materials.php" class="text-white hover:text-blue-200 transition duration-300">Materials</a>
+        <a href="video-classes.php" class="text-white hover:text-blue-200 transition duration-300">Video Classes</a>
+        <a href="teacher-signup.php" class="text-white hover:text-blue-200 transition duration-300">Volunteer</a>
+       
+        <a href="community.php" class="text-white hover:text-blue-200 transition duration-300">Community</a>
+        <a href="contact.php" class="text-white hover:text-blue-200 transition duration-300">Contact</a>
+        <a href="state-education-data.php" class="text-white hover:text-blue-200 transition duration-300">Education Stats</a>
+      </div>
+      <button class="md:hidden text-white focus:outline-none" id="mobile-menu-button">
+        <i class="fas fa-bars text-2xl"></i>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="md:hidden hidden bg-blue-700" id="mobile-menu">
+      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <a href="index.php" class="block px-3 py-2 text-white hover:bg-blue-600 rounded-md">Home</a>
+        <a href="learning-materials.php" class="block px-3 py-2 text-white hover:bg-blue-600 rounded-md">Materials</a>
+        <a href="teacher-signup.php" class="block px-3 py-2 text-white hover:bg-blue-600 rounded-md">Volunteer</a>
+        <a href="video-classes.php" class="block px-3 py-2 text-white hover:bg-blue-600 rounded-md">Video Classes</a>
+        <a href="community.php" class="block px-3 py-2 text-white hover:bg-blue-600 rounded-md">Community</a>
+        <a href="contact.php" class="block px-3 py-2 text-white hover:bg-blue-600 rounded-md">Contact</a>
       </div>
     </div>
   </nav>
@@ -29,6 +48,12 @@
   </header>
 
   <div class="max-w-7xl mx-auto p-4">
+    <?php if (isset($_GET['upload'])): ?>
+      <div class="p-4 mb-4 text-sm text-white <?= $_GET['upload'] == 'success' ? 'bg-green-500' : 'bg-red-500' ?> rounded-lg">
+        <?= $_GET['upload'] == 'success' ? 'File uploaded successfully!' : 'Failed to upload file.' ?>
+      </div>
+    <?php endif; ?>
+
     <h2 class="text-3xl font-bold text-center text-indigo-600 mb-6">Upload Learning Materials</h2>
 
     <form action="upload.php" method="post" enctype="multipart/form-data" class="bg-white p-8 rounded-lg shadow-lg mb-8">

@@ -130,10 +130,12 @@
       <div class="hidden md:flex space-x-6">
         <a href="index.php" class="text-white hover:text-blue-200 transition duration-300">Home</a>
         <a href="learning-materials.php" class="text-white hover:text-blue-200 transition duration-300">Materials</a>
-        <a href="teacher-signup.php" class="text-white hover:text-blue-200 transition duration-300">Volunteer</a>
         <a href="video-classes.php" class="text-white hover:text-blue-200 transition duration-300">Video Classes</a>
+        <a href="teacher-signup.php" class="text-white hover:text-blue-200 transition duration-300">Volunteer</a>
+       
         <a href="community.php" class="text-white hover:text-blue-200 transition duration-300">Community</a>
         <a href="contact.php" class="text-white hover:text-blue-200 transition duration-300">Contact</a>
+        <a href="state-education-data.php" class="text-white hover:text-blue-200 transition duration-300">Education Stats</a>
       </div>
       <button class="md:hidden text-white focus:outline-none" id="mobile-menu-button">
         <i class="fas fa-bars text-2xl"></i>
